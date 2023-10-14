@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.container{
+    height: 100vh;
+    background-image: url("./img/pexels-eberhard-grossgasteiger-1287145.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-container , .right-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    height: 300px;
+}
+
+.left-container h1{
+    font-size: 45px;
+}
+.left-container p{
+    font-size: 22px;
+    color: #fff;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.icons i{
+    color: #fff;
+}
+
+.right-container h1{
+    font-size: 45px;
+}
+.right-container label{
+    font-size: 18px;
+}
+.right-container form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="password"], input[type="email"] {
+    width: 70%;
+    border-radius: 5px;
+    height: 25px;
+    outline-style: #fff;
+    margin: 5px 0px;
+}
+input[type="checkbox"]{
+    border-radius: 5px;
+    height: 15px;
+    outline-style: #fff;
+    margin: 5px 0px;
+}
+.flex-column{
+    width: 50%;
+}
+.flex-column .sign-in-btn{
+    background-color: rgb(255, 81, 0);
+    height: 35px;
+    width: 50%;
+    border-radius: 8px;
+    border-color: rgb(255, 81, 0);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sign-in-btn:hover{
+    background-color: rgb(255, 132, 75);
+    border-color: rgb(255, 132, 75);
+}
+.flex-column a{
+    text-decoration: none;
+    color: #aaa7a7;
+    margin-top: 10px;
+}
